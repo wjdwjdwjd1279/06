@@ -9,6 +9,7 @@
 		printf("func1 x is at %p\n",&x);
 	}
 	
+	
 int main(int argc, char *argv[]) {
 	int x;
 	
