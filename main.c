@@ -3,34 +3,18 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-int sumTwo(int a, int b)
+int square(int a)
 {
-	int c = a + b;
-	return c;
+	a=a*a;
 }
 
-int square(int n)
-{
-	return n*n;
-}
-
-int get_max(int x, int y)
-{
-	if (x>y);
-		return x;
-		
-	return y;
-}
-	
 int main(int argc, char *argv[]) 
 {
-	int a, b;
-	a=3;
-	b=10;
+	int a;
+	a=2;
 	
-	printf("sumTwo result : %i\n", sumTwo(a,b));
-	printf("square result : %i\n", square(a));
-	printf("ger_max result : %i\n", get_max(a,b));
+	a= square(a);
+	printf("a=%i", a);
 	
 	return 0;
 }
